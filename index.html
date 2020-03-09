@@ -64,6 +64,76 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-cookie、localStorage、sessionStorage区别" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/03/09/cookie%E3%80%81localStorage%E3%80%81sessionStorage%E5%8C%BA%E5%88%AB/" class="article-date">
+  <time datetime="2020-03-09T12:45:09.000Z" itemprop="datePublished">2020-03-09</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/03/09/cookie%E3%80%81localStorage%E3%80%81sessionStorage%E5%8C%BA%E5%88%AB/">cookie、localStorage、sessionStorage区别</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <table>
+<thead>
+<tr>
+<th>特性</th>
+<th>cookie</th>
+<th>localStorage</th>
+<th>sessionStorage</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>数据的生命周期</td>
+<td>一般由服务器生成，可以setMaxAge来设置cookie的有效时间，如果在浏览器生成，默认是关闭浏览器之后失效</td>
+<td>永久保存，可清除</td>
+<td>仅在当前会话有效，关闭页面后清除</td>
+</tr>
+<tr>
+<td>存放数据大小</td>
+<td>4KB</td>
+<td>5MB</td>
+<td>5MB</td>
+</tr>
+<tr>
+<td>与服务器通信</td>
+<td>每次都会携带在HTTP头中，如果使用cookie保存过多数据会带来性能问题</td>
+<td>仅在客户端保存</td>
+<td>仅在客户端保存</td>
+</tr>
+<tr>
+<td>用途</td>
+<td>一般由服务器生成，用于标识用户身份</td>
+<td>用于浏览器缓存数据</td>
+<td>用于浏览器缓存数据</td>
+</tr>
+</tbody></table>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://puxiaoyu.github.io/Jojo.github.io/2020/03/09/cookie%E3%80%81localStorage%E3%80%81sessionStorage%E5%8C%BA%E5%88%AB/" data-id="ck7kgobug0000wkq83fmf33ew" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-vue生命周期" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/03/09/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" class="article-date">
@@ -242,6 +312,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2020/03/09/cookie%E3%80%81localStorage%E3%80%81sessionStorage%E5%8C%BA%E5%88%AB/">cookie、localStorage、sessionStorage区别</a>
+          </li>
         
           <li>
             <a href="/2020/03/09/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/">Vue生命周期</a>
