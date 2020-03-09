@@ -5,13 +5,17 @@
   
 
   
-  <title>Hexo</title>
+  <title>Vue生命周期 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://puxiaoyu.github.io/Jojo.github.io/index.html">
+  <meta name="description" content="生命周期钩子函数（11个） 类型 详细    beforeCreate Function 在实例初始化之后，数据观测 (data observer) 和 event&#x2F;watcher 事件配置之前被调用。   created Function 在实例创建完成后被立即调用。在这一步，实例已完成以下的配置：数据观测 (data observer)， 属性和方法的运算，watch&#x2F;event 事件回">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vue生命周期">
+<meta property="og:url" content="https://puxiaoyu.github.io/Jojo.github.io/2020/03/09/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="生命周期钩子函数（11个） 类型 详细    beforeCreate Function 在实例初始化之后，数据观测 (data observer) 和 event&#x2F;watcher 事件配置之前被调用。   created Function 在实例创建完成后被立即调用。在这一步，实例已完成以下的配置：数据观测 (data observer)， 属性和方法的运算，watch&#x2F;event 事件回">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-09T11:50:19.000Z">
+<meta property="article:modified_time" content="2020-03-09T11:51:56.572Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -62,9 +66,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-vue生命周期" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-vue生命周期" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2020/03/09/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" class="article-date">
   <time datetime="2020-03-09T11:50:19.000Z" itemprop="datePublished">2020-03-09</time>
@@ -77,8 +79,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/09/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/">Vue生命周期</a>
+    <h1 class="article-title" itemprop="name">
+      Vue生命周期
     </h1>
   
 
@@ -161,59 +163,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-vue几种常用指令" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2020/03/09/vue%E5%87%A0%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/" class="article-date">
-  <time datetime="2020-03-09T10:29:01.000Z" itemprop="datePublished">2020-03-09</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/09/vue%E5%87%A0%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/">vue几种常用指令</a>
-    </h1>
+    <a href="/2020/03/09/vue%E5%87%A0%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">vue几种常用指令</div>
+    </a>
   
+</nav>
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Vue几种常见指令</p>
-<ul>
-<li>v-if：<br>根据表达式的值的真假条件渲染元素。在切换时元素及它的数据绑定 / 组件被销毁并重建。</li>
-<li>v-show：<br>根据表达式之真假值，切换元素的 display CSS 属性。</li>
-<li>v-for：<br>循环指令，基于一个数组或者对象渲染一个列表，vue 2.0以上必须需配合 key值 使用。</li>
-<li>v-bind：<br>动态地绑定一个或多个特性，或一个组件 prop 到表达式。</li>
-<li>v-on：<br>用于监听指定元素的DOM事件，比如点击事件。绑定事件监听器。</li>
-<li>v-model：<br>实现表单输入和应用状态之间的双向绑定</li>
-<li>v-pre：<br>跳过这个元素和它的子元素的编译过程。可以用来显示原始 Mustache 标签。跳过大量没有指令的节点会加快编译。</li>
-<li>v-once：<br>只渲染元素和组件一次。随后的重新渲染，元素/组件及其所有的子节点将被视为静态内容并跳过。这可以用于优化更新性能。</li>
-<li>v-html:<br>显示html</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="https://puxiaoyu.github.io/Jojo.github.io/2020/03/09/vue%E5%87%A0%E7%A7%8D%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/" data-id="ck7kbukct0000pgq801co8n0t" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-
 
 </section>
         
